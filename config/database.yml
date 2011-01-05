@@ -1,0 +1,30 @@
+
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: new_year_tweets_development
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+test:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: new_year_tweets_test
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: new_year_tweets_production
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
